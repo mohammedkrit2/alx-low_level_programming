@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - function that generate ran num 
+ * main - function that generate ran num
  *       and ckeck if they positive or negtive
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
