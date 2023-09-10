@@ -11,7 +11,9 @@ int main()
 
 	for (i = 97; i = 122; i++)
 	{
-		putchar("%c", i);
+		putchar(i);
 	}
+	putchar("\n");
+
 	return (0);
 }
