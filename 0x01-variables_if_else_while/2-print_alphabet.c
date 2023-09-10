@@ -7,9 +7,9 @@
 
 int main()
 {
-	int i;
+	int i = 'a';
 
-	for (i = 97; i = 122; i++)
+	for (i; i = 'z'; i++)
 	{
 		putchar(i);
 	}
