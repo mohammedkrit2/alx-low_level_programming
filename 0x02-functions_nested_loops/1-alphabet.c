@@ -5,7 +5,7 @@
  */
 
 int main(){
-	int i = 'a';
+	char i = 'a';
 
 	while(i = 'z')
 	{
